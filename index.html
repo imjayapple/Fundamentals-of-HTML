@@ -30,3 +30,13 @@ project-folder/
 
 <!-- Turn images into clickable links by nesting the <img /> tag inside of an anchor tag -->
 <a href="https://en.wikipedia.org/wiki/Jimmy_Neutron" target="_blank" rel="noopener noreferrer"><img src="https://upload.wikimedia.org/wikipedia/en/5/57/Jimmy_Neutron.png" /></a>
+
+<!-- Link to a target on the same page by first providing it with an id -->
+<!-- Then use the # character and the targets element's id -->
+<p id="top">This is the top of the page!</p>
+<h1 id="bottom">This is the bottom!</h1>
+
+<ol>
+    <li><a href="#top">Top</a></li>
+    <li><a href="#bottom">Bottom</a></li>
+</ol>
