@@ -8,3 +8,8 @@ thead {
     font-family: 'Lato', sans-serif;
     font-weight: 50;
 }
+
+th {
+  font-size: 18px;
+  padding-inline: 30px
+}
