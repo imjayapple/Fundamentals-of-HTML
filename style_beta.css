@@ -12,4 +12,5 @@ thead {
 th {
   font-size: 18px;
   padding-inline: 30px
+  border: 1px solid blue;
 }
